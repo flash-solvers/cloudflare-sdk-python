@@ -11,7 +11,7 @@ requires-python = ">=3.8"
 dependencies = []
 
 [project.urls]
-Documentation = "https://flashsolvers.com/"
+Documentation = "https://docs.flashsolvers.com/"
 Source = "https://github.com/flash-solvers/cloudflare-sdk-python"
 
 [tool.setuptools]

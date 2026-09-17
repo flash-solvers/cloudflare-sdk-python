@@ -1,6 +1,6 @@
 # Flash Solvers Cloudflare SDK for Python
 
-Solve the Cloudflare WAF challenge ("Just a moment...") with the [Flash Solvers](https://flashsolvers.com/) API and get a `cf_clearance` cookie.
+Solve the Cloudflare WAF challenge ("Just a moment...") with the [Flash Solvers](https://docs.flashsolvers.com/) API and get a `cf_clearance` cookie.
 
 The API only generates each step of the challenge.
 Every request to the protected site is made from your machine, with a Chrome 152 TLS fingerprint, your proxy and your cookie jar.
@@ -74,5 +74,5 @@ A proxy IP that keeps failing is usually flagged; rotate it.
 
 ## Supported sites and pricing
 
-See the [Flash Solvers docs](https://flashsolvers.com/).
+See the [Flash Solvers docs](https://docs.flashsolvers.com/#cloudflare-overview).
 You are charged once per solve that reaches the final form, never for failures.
